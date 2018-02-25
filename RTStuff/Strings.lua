@@ -11,6 +11,7 @@ strings["Eastern Gondor"] = 0x4115ee3a;
 strings["Ringlo Vale"]= 0x4115b93f;
 strings["Dor en Enril"]= 0x4115b945;
 strings["Lebennin"]= 0x4115b944;
+strings["The Wastes"]= 0x411ad8a9;
 
 strings["lock"]= 0x410001d0;
 strings["unlock"]= 0x410001d3;
@@ -46,6 +47,9 @@ strings["en"]["Central Gondorw"]=120;
 strings["en"]["Eastern Gondor"]="Eastern Gondor";
 strings["en"]["Eastern Gondors"]="E.Gond";
 strings["en"]["Eastern Gondorw"]=120;
+strings["en"]["The Wastes"]="The Wastes";
+strings["en"]["The Wastess"]="Wastes";
+strings["en"]["The Wastesw"]=90;
 
 strings["en"]["sendtext"]="Send locations to";
 strings["en"]["send"]="Send";
@@ -92,7 +96,10 @@ strings["de"]["Central Gondors"]="Z.Gond";
 strings["de"]["Central Gondorw"]=110;
 strings["de"]["Eastern Gondor"]="Ost-Gondor";
 strings["de"]["Eastern Gondors"]="O.Gond";
-strings["de"]["Eastern Gondorw"]="90";
+strings["de"]["Eastern Gondorw"]=85;
+strings["de"]["The Wastes"]="Das "..string.char(195)..string.char(150).."dland";
+strings["de"]["The Wastess"]=string.char(195)..string.char(150).."dland";
+strings["de"]["The Wastesw"]=90;
 
 strings["de"]["sendtext"]="Sende diese Koordinaten";
 strings["de"]["send"]="Sende";
@@ -140,6 +147,9 @@ strings["fr"]["Central Gondorw"]=115;
 strings["fr"]["Eastern Gondor"]="Est du Gondor";
 strings["fr"]["Eastern Gondors"]="E.Gond";
 strings["fr"]["Eastern Gondorw"]=105;
+strings["fr"]["The Wastes"]="Landes d"..string.char(195)..string.char(169).."sertiques";
+strings["fr"]["The Wastess"]="L.D"..string.char(195)..string.char(169).."s";
+strings["fr"]["The Wastesw"]=145;
 
 strings["fr"]["sendtext"]="Envoyer ces coordonn"..string.char(195)..string.char(169).."es";
 strings["fr"]["send"]="Envoyer";

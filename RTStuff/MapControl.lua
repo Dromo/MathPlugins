@@ -35,27 +35,29 @@ function MapControl:Constructor( location, parent )
 		self:SetLocked(not self.locked);
 	end
 
-	self.questIcon = Turbine.UI.Label();
-	self.questIcon:SetParent( self );
-	self.questIcon:SetSize( 64,64 );
-	self.questIcon:SetBackground( strings["questring"] );
-	self.questIcon:SetPosition( mapdata[location.."q"][1]-43, mapdata[location.."q"][2]-20 );
-	self.questIcon:SetBlendMode( Turbine.UI.BlendMode.AlphaBlend );
-	self.questLabel = Turbine.UI.Label();
-	self.questLabel:SetPosition( self.questIcon:GetLeft(), self.questIcon:GetTop() );
-	self.questLabel:SetParent( self );
-	self.questLabel:SetVisible( false );
-	self.questLabel:SetSize( 80,12 );
-	self.questLabel:SetTextAlignment( Turbine.UI.ContentAlignment.MiddleCenter );
-	self.questLabel:SetText( strings[locale]["questgiver"] );
-	self.questLabel:SetZOrder( self.questIcon:GetZOrder()+1 );
-	self.questLabel:SetBackColor( Turbine.UI.Color(1,0.1,0.1,0.1) );
-	self.questIcon.MouseEnter = function(  )
-		self.questLabel:SetVisible( true );
-	end
-	self.questIcon.MouseLeave = function()
-		self.questLabel:SetVisible( false );
-	end
+    if (mapdata[location.."q"]) then
+        self.questIcon = Turbine.UI.Label();
+        self.questIcon:SetParent( self );
+        self.questIcon:SetSize( 64,64 );
+        self.questIcon:SetBackground( strings["questring"] );
+        self.questIcon:SetPosition( mapdata[location.."q"][1]-43, mapdata[location.."q"][2]-20 );
+        self.questIcon:SetBlendMode( Turbine.UI.BlendMode.AlphaBlend );
+        self.questLabel = Turbine.UI.Label();
+        self.questLabel:SetPosition( self.questIcon:GetLeft(), self.questIcon:GetTop() );
+        self.questLabel:SetParent( self );
+        self.questLabel:SetVisible( false );
+        self.questLabel:SetSize( 80,12 );
+        self.questLabel:SetTextAlignment( Turbine.UI.ContentAlignment.MiddleCenter );
+        self.questLabel:SetText( strings[locale]["questgiver"] );
+        self.questLabel:SetZOrder( self.questIcon:GetZOrder()+1 );
+        self.questLabel:SetBackColor( Turbine.UI.Color(1,0.1,0.1,0.1) );
+        self.questIcon.MouseEnter = function(  )
+            self.questLabel:SetVisible( true );
+        end
+        self.questIcon.MouseLeave = function()
+            self.questLabel:SetVisible( false );
+        end
+    end
 	
 	if location=="Central Gondor" then
 		self.questIcon2 = Turbine.UI.Label();

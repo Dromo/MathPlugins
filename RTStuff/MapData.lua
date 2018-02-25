@@ -38,6 +38,7 @@ mapdata["Evendim"]["15.3S 64.4W"] = EvendimCoords(-15.3, -64.4);
 mapdata["Evendim"]["16.1S 75.2W"] = EvendimCoords(-16.1, -75.2);
 mapdata["Evendim"]["16.7S 64.1W"] = EvendimCoords(-16.7, -64.1);
 mapdata["Evendim"]["18.6S 70.2W"] = EvendimCoords(-18.6, -70.2);
+mapdata["Evendim"]["16.6S 69.7W"] = EvendimCoords(-16.6, -69.7);
 
 
 ForochelCoords = Coords(25.0, -92.5, -5.5, -52.4);
@@ -52,6 +53,7 @@ mapdata["Forochel"]["12.7N 80.3W"] = ForochelCoords(12.7, -80.3);
 mapdata["Forochel"]["10.5N 73.0W"] = ForochelCoords(10.5, -73.0);
 mapdata["Forochel"]["5.5N 74.5W"] = ForochelCoords(5.5, -74.5);
 mapdata["Forochel"]["7.9N 77.1W"] = ForochelCoords(7.9, -77.1);
+--mapdata["Forochel"]["8.1N 76.7W"] = ForochelCoords(8.1, -76.7); -- probably the same as the one above
 mapdata["Forochel"]["16.8N 86.2W"] = ForochelCoords(16.8, -86.2);
 mapdata["Forochel"]["18.8N 85.4W"] = ForochelCoords(18.8, -85.4);
 mapdata["Forochel"]["10.8N 79.5W"] = ForochelCoords(10.8, -79.5);
@@ -151,7 +153,6 @@ mapdata["Central Gondor"]["84.6S 43.9W"] = CGondorCoords(-84.6, -43.9);
 mapdata["Central Gondor"]["80.8S 40.8W"] = CGondorCoords(-80.8, -40.8);
 mapdata["Central Gondor"]["83.5S 44.2W"] = CGondorCoords(-83.5, -44.2);
 
-
 EGondorCoords = Coords(-60.6, -26.5, -80.1, -0.1);
 mapdata["Eastern Gondor"]={};
 mapdata["Eastern Gondorc"] = EGondorCoords;
@@ -166,4 +167,15 @@ mapdata["Eastern Gondor"]["71.9S 8.1W"] = EGondorCoords(-71.9, -8.1);
 mapdata["Eastern Gondor"]["76.7S 12.3W"] = EGondorCoords(-76.7, -12.3);
 mapdata["Eastern Gondor"]["75.9S 14.4W"] = EGondorCoords(-75.9, -14.4);
 mapdata["Eastern Gondor"]["76.3S 16.6W"] = EGondorCoords(-76.3, -16.6);
+mapdata["Eastern Gondor"]["76.8S 17.2W"] = EGondorCoords(-76.8, -17.2);
 
+
+WastesCoords = Coords(-26.1, -17.0, -41.5, 3.5);
+mapdata["The Wastes"]={};
+mapdata["The Wastesc"] = WastesCoords;
+mapdata["The Wastes"]["37.3S 14.6W"] = WastesCoords(-37.3, -14.6);
+mapdata["The Wastes"]["35.0S, 12.3W"] = WastesCoords(-35.0, -12.3);
+mapdata["The Wastes"]["34.3S, 11.6W"] = WastesCoords(-34.3, -11.6);
+mapdata["The Wastes"]["33.3S, 8.2W"] = WastesCoords(-33.3, -8.2);
+mapdata["The Wastes"]["32.5S, 0.6E"] = WastesCoords(-32.5, 0.6);
+mapdata["The Wastes"]["30.5S, 3.5W"] = WastesCoords(-30.5, -3.5);
