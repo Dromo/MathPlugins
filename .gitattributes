@@ -1,0 +1,5 @@
+* text=auto
+*.lua   text
+*.html  text
+*.css   text
+*.tga   binary

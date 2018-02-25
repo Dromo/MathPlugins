@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>909</Id>
+  <Name>RTPlugin</Name>
+  <Version>1.7.1</Version>
+  <Author>Mathwold</Author>
+  <InfoUrl>http://www.lotrointerface.com/downloads/info909</InfoUrl>
+  <DownloadUrl>http://www.lotrointerface.com/downloads/download909</DownloadUrl>
+  <Descriptors>
+    <descriptor>MathPlugins\RTPlugin.plugin</descriptor>
+  </Descriptors>
+  <Dependencies />
+</PluginConfig>
