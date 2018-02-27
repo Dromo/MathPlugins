@@ -95,7 +95,7 @@ function RTRunner:Constructor()
 
 	self:SetText( "Roving Threats" );
 	self:SetSize( 800,750 );
-	self.nrMaps = 10;
+	self.nrMaps = 11;
 	self.activeMap = 1;
 		
 	self.bottomBar = Turbine.UI.Control();
@@ -112,19 +112,21 @@ function RTRunner:Constructor()
 	self.mapsBg[8] = mapBg( "Central Gondor", self );
 	self.mapsBg[9] = mapBg( "Eastern Gondor", self );
 	self.mapsBg[10] = mapBg( "The Wastes", self );
+    self.mapsBg[11] = mapBg( "Gorgoroth", self );
 	
 	self.maps = {};
 	self.maps[1] = MapControl("Angmar", self );
 	self.maps[2] = MapControl("Evendim", self );
 	self.maps[3] = MapControl("Forochel", self );
 	self.maps[4] = MapControl("Misty Mountains", self );
-    	self.maps[5] = MapControl("North Downs", self );
-    	self.maps[6] = MapControl("Southern Mirkwood", self );
+    self.maps[5] = MapControl("North Downs", self );
+    self.maps[6] = MapControl("Southern Mirkwood", self );
 	self.maps[7] = MapControl("Western Gondor", self );
 	self.maps[8] = MapControl("Central Gondor", self );
 	self.maps[9] = MapControl("Eastern Gondor", self );
 	self.maps[10] = MapControl("The Wastes", self );
-	
+	self.maps[11] = MapControl("Gorgoroth", self );
+
 	self.tabs = {};
 	self.tabs[1] = TabButton(strings[locale]["Angmar"],strings[locale]["Angmarw"],20,Turbine.UI.Color(1,0.8,0,0));
 	self.tabs[2] = TabButton(strings[locale]["Evendims"],45,20,Turbine.UI.Color(1,0.5,0.5,0.5));
@@ -136,7 +138,8 @@ function RTRunner:Constructor()
 	self.tabs[8] = TabButton(strings[locale]["Central Gondors"],45,20,Turbine.UI.Color(1,0.4,0,1));
 	self.tabs[9] = TabButton(strings[locale]["Eastern Gondors"],45,20,Turbine.UI.Color(1,0,0.6,0.45));
 	self.tabs[10] = TabButton(strings[locale]["The Wastess"],45,20,Turbine.UI.Color.Black);
-	
+	self.tabs[11] = TabButton(strings[locale]["Gorgoroths"],75,20,Turbine.UI.Color.SteelBlue);
+
 	for i=1,self.nrMaps do
 		self.tabs[i]:SetParent( self );
 		self.maps[i]:SetParent( self );

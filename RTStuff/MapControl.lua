@@ -150,7 +150,29 @@ function MapControl:Constructor( location, parent )
 			self.epiLabel:SetVisible( false );
 		end
 	end
-		
+
+    if location=="Gorgoroth" then
+        self.epiButton = MapButton( self, 469,411, "58.7S 20.7E" );
+        self.epiButton.Activate();
+        self.epiButton:SetLocked( true );
+        self.epiLabel = Turbine.UI.Label();
+        self.epiLabel:SetPosition( self.epiButton:GetLeft()+self.epiButton:GetWidth()+3,
+            self.epiButton:GetTop()+self.epiButton:GetHeight()/2 );
+        self.epiLabel:SetParent( self );
+        self.epiLabel:SetVisible( false );
+        self.epiLabel:SetSize( 160,12 );
+        self.epiLabel:SetTextAlignment( Turbine.UI.ContentAlignment.MiddleCenter );
+        self.epiLabel:SetBackColor(  Turbine.UI.Color(1,0.1,0.1,0.1) );
+        self.epiLabel:SetZOrder( self.epiButton:GetZOrder()+1 );
+        self.epiLabel:SetText (
+            "Uili"..string.char(195)..string.char(186).."r: 58.7S, 20.7E" );
+        self.epiButton.MouseEnter = function()
+            self.epiLabel:SetVisible( true );
+        end
+        self.epiButton.MouseLeave = function()
+            self.epiLabel:SetVisible( false );
+        end
+    end
 	
 	self.rightClick = Turbine.UI.ContextMenu();
 	self.menu1 = Turbine.UI.MenuItem( strings[locale]["clearmap"] );
@@ -233,6 +255,9 @@ function MapControl:SetMakeQS( makeQuickSlots )
 	if self.location=="Angmar" then
 		self.epiButton.makeQS = makeQuickSlots;
 	end
+    if self.location=="Gorgoroth" then
+        self.epiButton.makeQS = makeQuickSlots;
+    end
 end
 
 

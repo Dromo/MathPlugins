@@ -169,7 +169,6 @@ mapdata["Eastern Gondor"]["75.9S 14.4W"] = EGondorCoords(-75.9, -14.4);
 mapdata["Eastern Gondor"]["76.3S 16.6W"] = EGondorCoords(-76.3, -16.6);
 mapdata["Eastern Gondor"]["76.8S 17.2W"] = EGondorCoords(-76.8, -17.2);
 
-
 WastesCoords = Coords(-26.1, -17.0, -41.5, 3.5);
 mapdata["The Wastes"]={};
 mapdata["The Wastesc"] = WastesCoords;
@@ -179,3 +178,28 @@ mapdata["The Wastes"]["34.3S, 11.6W"] = WastesCoords(-34.3, -11.6);
 mapdata["The Wastes"]["33.3S, 8.2W"] = WastesCoords(-33.3, -8.2);
 mapdata["The Wastes"]["32.5S, 0.6E"] = WastesCoords(-32.5, 0.6);
 mapdata["The Wastes"]["30.5S, 3.5W"] = WastesCoords(-30.5, -3.5);
+mapdata["The Wastes"]["34.2S, 2.2E"] = WastesCoords(-34.2, 2.2);
+
+GorgorothCoords = Coords(-35.4, -5.9, -69.4, 39.5);
+mapdata["Gorgoroth"]={}
+mapdata["Gorgorothc"] = GorgorothCoords;
+mapdata["Gorgoroth"]["47.0S, 33.5E"] = GorgorothCoords(-47.0, 33.5);--Bolvag
+mapdata["Gorgoroth"]["52.5S, 25.5E"] = GorgorothCoords(-52.5, 25.5);
+mapdata["Gorgoroth"]["62.4S, 25.5E"] = GorgorothCoords(-62.4, 25.5);
+mapdata["Gorgoroth"]["60.6S, 10.9E"] = GorgorothCoords(-60.6, 10.9);--Gristlebite
+--mapdata["Gorgoroth"]["49.4S, 4.5E"] = GorgorothCoords(-49.4, 4.5);
+mapdata["Gorgoroth"]["64.2S, 10.7E"] = GorgorothCoords(-64.2, 10.7);
+mapdata["Gorgoroth"]["51.4S, 4.0E"] = GorgorothCoords(-51.4, 4.0);
+mapdata["Gorgoroth"]["49.4S, 4.5E"] = GorgorothCoords(-49.4, 4.5);--Nuzdum
+--mapdata["Gorgoroth"]["40.8S, 3.9E"] = GorgorothCoords(-40.8, 3.9);
+mapdata["Gorgoroth"]["45.6S, 7.3E"] = GorgorothCoords(-45.6, 7.3);
+mapdata["Gorgoroth"]["39.6S, 6.8E"] = GorgorothCoords(-39.6, 6.8);
+mapdata["Gorgoroth"]["40.8S, 3.9E"] = GorgorothCoords(-40.8, 3.9);--Rotwing
+mapdata["Gorgoroth"]["43.9S, 17.3E"] = GorgorothCoords(-43.9, 17.3);
+mapdata["Gorgoroth"]["47.4S, 20.0E"] = GorgorothCoords(-47.4, 20.0);
+mapdata["Gorgoroth"]["50.9S, 8.8E"] = GorgorothCoords(-50.9, 8.8);
+mapdata["Gorgoroth"]["57.0S, 15.9E"] = GorgorothCoords(-57.0, 15.9);--Spitpyre
+mapdata["Gorgoroth"]["60.8S, 26.3E"] = GorgorothCoords(-60.8, 26.3);
+--mapdata["Gorgoroth"]["62.5S, 25.5E"] = GorgorothCoords(-62.5, 25.5);
+--mapdata["Gorgoroth"]["58.7S, 20.7E"] = GorgorothCoords(-58.7, 20.7); --Uiluir
+
