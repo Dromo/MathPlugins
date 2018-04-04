@@ -203,3 +203,15 @@ mapdata["Gorgoroth"]["60.8S, 26.3E"] = GorgorothCoords(-60.8, 26.3);
 --mapdata["Gorgoroth"]["62.5S, 25.5E"] = GorgorothCoords(-62.5, 25.5);
 --mapdata["Gorgoroth"]["58.7S, 20.7E"] = GorgorothCoords(-58.7, 20.7); --Uiluir
 
+NMirkwoodCoords = Coords(37.4, -56.6, 5.3, -13.8);
+mapdata["Northern Mirkwood"]={};
+mapdata["Northern Mirkwoodc"] = NMirkwoodCoords;
+mapdata["Northern Mirkwood"]["15.4N 43.1W"] = NMirkwoodCoords(15.4, -43.1);
+mapdata["Northern Mirkwood"]["16.0N 36.2W"] = NMirkwoodCoords(16.0, -36.2);
+mapdata["Northern Mirkwood"]["20.8N 24.7W"] = NMirkwoodCoords(20.8, -24.7);
+mapdata["Northern Mirkwood"]["23.3N 27.4W"] = NMirkwoodCoords(23.3, -27.4);
+mapdata["Northern Mirkwood"]["15.2N 22.8W"] = NMirkwoodCoords(15.2, -22.8);
+mapdata["Northern Mirkwood"]["17.5N 23.5W"] = NMirkwoodCoords(17.5, -23.5);
+mapdata["Northern Mirkwood"]["16.9N 47.8W"] = NMirkwoodCoords(16.9, -47.8);
+mapdata["Northern Mirkwood"]["20.9N 43.2W"] = NMirkwoodCoords(20.9, -43.2);
+

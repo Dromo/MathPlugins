@@ -13,6 +13,7 @@ strings["Dor en Enril"]= 0x4115b945;
 strings["Lebennin"]= 0x4115b944;
 strings["The Wastes"]= 0x411ad8a9;
 strings["Gorgoroth"]= 0x411b84d4;
+strings["Northern Mirkwood"]= 0x411c2de2;
 
 strings["lock"]= 0x410001d0;
 strings["unlock"]= 0x410001d3;
@@ -54,6 +55,9 @@ strings["en"]["The Wastesw"]=90;
 strings["en"]["Gorgoroth"]="The Plateau of Gorgoroth";
 strings["en"]["Gorgoroths"]="Gorgor";
 strings["en"]["Gorgorothw"]=180;
+strings["en"]["Northern Mirkwood"]="Northern Mirkwood";
+strings["en"]["Northern Mirkwoods"]="NMirk";
+strings["en"]["Northern Mirkwoodw"]="130";
 
 strings["en"]["sendtext"]="Send locations to";
 strings["en"]["send"]="Send";
@@ -111,7 +115,7 @@ strings["de"]["Gorgorothw"]=180;
 strings["de"]["sendtext"]="Sende diese Koordinaten";
 strings["de"]["send"]="Sende";
 strings["de"]["reset"]="Zur"..string.char(195)..string.char(188).."cksetzen";
-strings["de"]["channelList"]={{"Gef"..string.char(195)..string.char(164).."hrten","/g "} , {"Schlachtzug","/sz "} , {"Sippe","/sc "} , {"Offizier","/so "}, {"Fl"..string.char(195)..string.char(188).."stern","/f "} , {"Kanal1","/1 "} , {"Kanal2","/2 "} , {"Kanal3","/3 "}, {"Kanal4","/4 "} , {"Welt","/welt "}, {"Regional","/regional "} };
+strings["de"]["channelList"]={{"Gef"..string.char(195)..string.char(164).."hrten","/g "} , {"Schlachtzug","/szc "} , {"Sippe","/sc "} , {"Offizier","/so "}, {"Fl"..string.char(195)..string.char(188).."stern","/f "} , {"Kanal1","/1 "} , {"Kanal2","/2 "} , {"Kanal3","/3 "}, {"Kanal4","/4 "} , {"Welt","/welt "}, {"Regional","/regional "} };
 strings["de"]["loccommand"]="/pos";
 strings["de"]["locprefix"]="Ihr befindet Euch hier: ";
 strings["de"]["recievetext"]="Daten empfangen";
@@ -124,6 +128,12 @@ strings["de"]["unlockmsg"]="Entriegel die Karte";
 strings["de"]["nexttarget1"]="Nächste UB ist bei ";
 strings["de"]["nexttarget2"]=".";
 strings["de"]["questgiver"]="UB Aufgaben";
+strings["de"]["Northern Mirkwood"]="N"..string.char(195)..string.char(182).."rdlicher D"..string.char(195)..string.char(188).."sterwald";
+strings["de"]["Northern Mirkwoods"]="ND"..string.char(195)..string.char(188).."st"; 
+strings["de"]["Northern Mirkwoodw"]="180";
+
+
+
 
  -- create the French resource string table
 strings["fr"]={};
@@ -160,6 +170,9 @@ strings["fr"]["The Wastesw"]=145;
 strings["fr"]["Gorgoroth"]="Gorgor";
 strings["fr"]["Gorgoroths"]="The Plateau of Gorogoroth";
 strings["fr"]["Gorgorothw"]=180;
+strings["fr"]["Northern Mirkwood"]="Eryn Lasgalen";
+strings["fr"]["Northern Mirkwoods"]="Eryn.L";
+strings["fr"]["Northern Mirkwoodw"]=110;
 
 
 strings["fr"]["sendtext"]="Envoyer ces coordonn"..string.char(195)..string.char(169).."es";
