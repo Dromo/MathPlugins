@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <Plugin>
-	<Information>
-		<Name>RTPlugin</Name>
-		<Author>Math</Author>
-		<Version>1.7.1</Version>
-		<Description><![CDATA[This plugin is meant to make the finding and sharing of Roving Threat locations easier. Locations are different each day and per server, they change at the usual 3AM servertime reset time.
+    <Information>
+        <Name>RTPlugin</Name>
+        <Author>Math</Author>
+        <Version>1.7.1</Version>
+        <Description><![CDATA[This plugin is meant to make the finding and sharing of Roving Threat locations easier. Locations are different each day and per server, they change at the usual 3AM servertime reset time.
 
 Fuctions:
 - A map with markers at each possible location, toggle red if there is a RT there.
@@ -16,7 +16,7 @@ Fuctions:
 - Option to 'Receive data': if someone else send their marked locations, they will automatically be added to your map.
 - Ctrl+click a location to send the coordinates of the next target.
 - Alt+click a location to use the Waypoint plugin with the coordinates.]]></Description>
-	</Information>
-	<Package>MathPlugins.RTStuff.Main</Package>
+    </Information>
+    <Package>MathPlugins.RTStuff.Main</Package>
         <Configuration Apartment="RTPlugin" />
 </Plugin>
