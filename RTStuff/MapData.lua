@@ -186,6 +186,7 @@ mapdata["Gorgorothc"] = GorgorothCoords;
 mapdata["Gorgoroth"]["47.0S, 33.5E"] = GorgorothCoords(-47.0, 33.5);--Bolvag
 mapdata["Gorgoroth"]["52.5S, 25.5E"] = GorgorothCoords(-52.5, 25.5);
 mapdata["Gorgoroth"]["62.4S, 25.5E"] = GorgorothCoords(-62.4, 25.5);
+mapdata["Gorgoroth"]["56.1S, 24.7E"] = GorgorothCoords(-56.1, 24.7);
 mapdata["Gorgoroth"]["60.6S, 10.9E"] = GorgorothCoords(-60.6, 10.9);--Gristlebite
 --mapdata["Gorgoroth"]["49.4S, 4.5E"] = GorgorothCoords(-49.4, 4.5);
 mapdata["Gorgoroth"]["64.2S, 10.7E"] = GorgorothCoords(-64.2, 10.7);
@@ -202,6 +203,9 @@ mapdata["Gorgoroth"]["57.0S, 15.9E"] = GorgorothCoords(-57.0, 15.9);--Spitpyre
 mapdata["Gorgoroth"]["60.8S, 26.3E"] = GorgorothCoords(-60.8, 26.3);
 --mapdata["Gorgoroth"]["62.5S, 25.5E"] = GorgorothCoords(-62.5, 25.5);
 --mapdata["Gorgoroth"]["58.7S, 20.7E"] = GorgorothCoords(-58.7, 20.7); --Uiluir
+mapdata["Gorgoroth"]["50.9S, 12.7E"] = GorgorothCoords(-50.9, 12.7);
+mapdata["Gorgoroth"]["52.8S, 14.4E"] = GorgorothCoords(-52.8, 14.4);
+mapdata["Gorgoroth"]["61.7S, 15.8E"] = GorgorothCoords(-61.7, 15.8);
 
 NMirkwoodCoords = Coords(37.4, -56.6, 5.3, -13.8);
 mapdata["Northern Mirkwood"]={};
